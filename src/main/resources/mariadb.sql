@@ -1,5 +1,5 @@
 
-CREATE datebase qiuqiu;
+CREATE database qiuqiu;
 use qiuqiu;
 
 SET FOREIGN_KEY_CHECKS=0;
