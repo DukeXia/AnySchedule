@@ -1,0 +1,40 @@
+{
+  "groups": [{
+    "name": "zookeeper",
+    "type": "cn.ictgu.config.ZookeeperProperties",
+    "sourceType": "cn.ictgu.config.ZookeeperProperties"
+  }],
+  "properties": [
+    {
+      "name": "zookeeper.host",
+      "type": "java.lang.String",
+      "sourceType": "cn.ictgu.config.ZookeeperProperties"
+    },
+    {
+      "name": "zookeeper.password",
+      "type": "java.lang.String",
+      "sourceType": "cn.ictgu.config.ZookeeperProperties"
+    },
+    {
+      "name": "zookeeper.port",
+      "type": "java.lang.String",
+      "sourceType": "cn.ictgu.config.ZookeeperProperties"
+    },
+    {
+      "name": "zookeeper.root-path",
+      "type": "java.lang.String",
+      "sourceType": "cn.ictgu.config.ZookeeperProperties"
+    },
+    {
+      "name": "zookeeper.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.ictgu.config.ZookeeperProperties"
+    },
+    {
+      "name": "zookeeper.username",
+      "type": "java.lang.String",
+      "sourceType": "cn.ictgu.config.ZookeeperProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet">
+    <script th:src="@{/js/jquery.js}"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <table class="table table-striped table-bordered" border="" cellspacing="" cellpadding="">
+        <tr>
+            <th class="col-md-2">任务类型</th>
+            <th class="col-md-4">处理机器</th>
+            <th class="col-md-1">线程组数量</th>
+            <th class="col-md-5">错误信息</th>
+        </tr>
+        <tr th:each="info:${runtimeList}">
+            <td th:text="${info.strategyName}"></td>
+            <td th:text="${info.uuid}"></td>
+            <td th:text="${info.requestNum}"></td>
+            <td th:text="${info.message}"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
