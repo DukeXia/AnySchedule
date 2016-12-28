@@ -3,7 +3,7 @@ server:
 
 # Zookeeper 配置
 zookeeper:
-  host: *******
+  host: 122.112.235.38
   port: 2181
   timeout: 60000
   rootPath: /any/db
@@ -16,7 +16,7 @@ spring:
     url: jdbc:mysql://localhost:3306/qiuqiu?useUnicode=true&characterEncoding=UTF-8
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
-    password: ******
+    password: s.china
     sql-script-encoding: utf-8
 
 # Mybatis 配置
