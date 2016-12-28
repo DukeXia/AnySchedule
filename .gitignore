@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+AnySchedule.iml
+
+src/test/
+target/generated-sources/
